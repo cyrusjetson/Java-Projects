@@ -1,0 +1,6 @@
+create database ration;
+use ration;
+
+create table agentrequest(name varchar(30),an varchar(30),age float, dob varchar(30), addr varchar(30),familymembercount int, nochild int, status int);
+
+create table consumer(id int, an varchar(30), primary key(id,an));
