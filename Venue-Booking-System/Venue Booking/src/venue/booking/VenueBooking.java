@@ -31,7 +31,7 @@ public class VenueBooking {
             while (label == 0) {
                 try{
                     Class.forName("com.mysql.jdbc.Driver");
-                    con = DriverManager.getConnection("jdbc:mysql://localhost:3306/ooad", "root", "raja2017");
+                    con = DriverManager.getConnection("jdbc:mysql://localhost:3306/ooad", "root", "");
 
                 } catch(Exception e)
                 {
